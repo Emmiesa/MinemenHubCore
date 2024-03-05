@@ -1,0 +1,18 @@
+on-join_selected-slot: 3
+items:
+  server_selector:
+    enabled: true
+    material: COMPASS
+    name: '&dServer Selector &7(Right Click)'
+    lore:
+      - "&7Opens the Server Selector menu."
+    slot: 3
+    execute_command:
+      enabled: false
+      command: "thecommand"
+  enderbutt:
+    enabled: true
+    material: ENDER_PEARL
+    name: '&dEnderButt &7(Right Click)'
+    lore: []
+    slot: 5

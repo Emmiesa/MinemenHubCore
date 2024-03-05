@@ -1,0 +1,305 @@
+scoreboard:
+  enabled: true
+  title: "&d&lHUB"
+  lines:
+    - "&7&m------------------"
+    - "&f&lInfo"
+    - "&f&l ● &fRank: %aqua_player_rank%"
+    - "&f&l ● &fPlayers: &d%bungee_all%"
+    - " "
+    - "&f&lOnline"
+    - "&f&l ● &fFriends: &cNone"
+    - "&f&l ● &fClub: &cNone"
+    - " "
+    - "&dminemen.club"
+    - "&7&m------------------"
+spawn-teleport: true
+spawnLocation:
+  world: world
+  x: 0.5
+  y: 70.0
+  z: 0.5
+  yaw: 90.0
+  pitch: 0.0
+double_jump:
+  enabled: true
+  sound_enabled: true
+  sound: EXPLODE
+  velocity_multiplier: 1.5
+display_player-health: false #Display players hearts below her name
+welcome_message:
+  enabled: true
+  message:
+    - ''
+    - '&eMinemen Club'
+    - ' &e● Website: &dminemen.club'
+    - ' &e● Store: &dstore.minemen.club'
+    - ' &e● Discord: &dminemen.club/discord'
+    - ' &e● Twitter: &dtwitter.com/Minemen_Network'
+    - ' &e● Rules: &dminemen.club/rules'
+    - ''
+    #- "&dMinemen Club &7(MMC)"
+    #- "&7███████████████████"
+    #- "&7█&d█████&7█&d█████&7█&d█████&7█"
+    #- "&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7████&7█"
+    #- "&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7████&7█"
+    #- "&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7████&7█"
+    #- "&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█&7█&d█████&7█"
+    #- "&7███████████████████"
+tablist:
+  enable: true
+  type: "CUSTOM" #Available types: VANILLA, CUSTOM
+  ping: -1 #[-1 = Disabled]
+  player_prefix: "&a" #Only for vanilla
+  header: []
+    #- ''
+    #- '&eMMC HubCore made by Emmiesa'
+  footer: []
+    #- ''
+    #- '&edsc.gg/emmiesa'
+    #- ''
+  lines:
+    left:
+      '1':
+        text: ''
+        head: ''
+      '2':
+        text: ''
+        head: ''
+      '3':
+        text: ''
+        head: ''
+      '4':
+        text: ''
+        head: ''
+      '5':
+        text: ''
+        head: ''
+      '6':
+        text: '&dNA Practice'
+        head: ''
+      '7':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '8':
+        text: ''
+        head: ''
+      '9':
+        text: ''
+        head: ''
+      '10':
+        text: '&dNA Modern Practice'
+        head: ''
+      '11':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '12':
+        text: ''
+        head: ''
+      '13':
+        text: ''
+        head: ''
+      '14':
+        text: '&dUHC Games'
+        head: ''
+      '15':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '16':
+        text: ''
+        head: ''
+      '17':
+        text: '&dUHC Meetup'
+        head: ''
+      '18':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '19':
+        text: ''
+        head: ''
+      '20':
+        text: ''
+        head: ''
+    middle:
+      '1':
+        text: '&dMinemen Club'
+        head: ''
+      '2':
+        text: '%bungee_all% online'
+        head: ''
+      '3':
+        text: ''
+        head: ''
+      '4':
+        text: ''
+        head: ''
+      '5':
+        text: ''
+        head: ''
+      '6':
+        text: '&dEU Practice'
+        head: ''
+      '7':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '8':
+        text: ''
+        head: ''
+      '9':
+        text: ''
+        head: ''
+      '10':
+        text: '&dEU Modern Practice'
+        head: ''
+      '11':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '12':
+        text: ''
+        head: ''
+      '13':
+        text: ''
+        head: ''
+      '14':
+        text: '&dSG'
+        head: ''
+      '15':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '16':
+        text: ''
+        head: ''
+      '17':
+        text: '&dHubs'
+        head: ''
+      '18':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '19':
+        text: ''
+        head: ''
+      '20':
+        text: ''
+        head: ''
+    right:
+      '1':
+        text: ''
+        head: ''
+      '2':
+        text: ''
+        head: ''
+      '3':
+        text: ''
+        head: ''
+      '4':
+        text: ''
+        head: ''
+      '5':
+        text: ''
+        head: ''
+      '6':
+        text: '&dAS Practice'
+        head: ''
+      '7':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '8':
+        text: ''
+        head: ''
+      '9':
+        text: ''
+        head: ''
+      '10':
+        text: '&dAS Modern Practice'
+        head: ''
+      '11':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '12':
+        text: ''
+        head: ''
+      '13':
+        text: ''
+        head: ''
+      '14':
+        text: '&dUHC'
+        head: ''
+      '15':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '16':
+        text: ''
+        head: ''
+      '17':
+        text: '&dPot SG'
+        head: ''
+      '18':
+        text: '%bungee_127.0.0.1:25565%'
+        head: ''
+      '19':
+        text: ''
+        head: ''
+      '20':
+        text: ''
+        head: ''
+    far_right:
+      '1':
+        text: ''
+        head: ''
+      '2':
+        text: ''
+        head: ''
+      '3':
+        text: ''
+        head: ''
+      '4':
+        text: ''
+        head: ''
+      '5':
+        text: ''
+        head: ''
+      '6':
+        text: ''
+        head: ''
+      '7':
+        text: ''
+        head: ''
+      '8':
+        text: ''
+        head: ''
+      '9':
+        text: ''
+        head: ''
+      '10':
+        text: ''
+        head: ''
+      '11':
+        text: ''
+        head: ''
+      '12':
+        text: ''
+        head: ''
+      '13':
+        text: ''
+        head: ''
+      '14':
+        text: ''
+        head: ''
+      '15':
+        text: ''
+        head: ''
+      '16':
+        text: ''
+        head: ''
+      '17':
+        text: ''
+        head: ''
+      '18':
+        text: ''
+        head: ''
+      '19':
+        text: ''
+        head: ''
+      '20':
+        text: ''
+        head: ''

@@ -1,0 +1,11 @@
+name: HubCore
+version: '${project.version}'
+main: me.emmy.hub.HubCore
+author: Emmy
+description: '${project.description}'
+website: https://dsc.gg/emmiesa
+depends:  [PlaceholderAPI]
+commands:
+  hubcore:
+  serverselector:
+  setspawn:

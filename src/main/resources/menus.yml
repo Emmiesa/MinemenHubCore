@@ -1,0 +1,31 @@
+menus:
+  server_selector:
+    refill-glass: true
+    title: "Servers » Main"
+    size: 27
+    servers:
+      practice:
+        slot: 12
+        material: DIAMOND_SWORD
+        data: 0
+        name: "&e&lPractice &d&lUPDATED!"
+        lore:
+          - "&7&o1v1s, Parties, Events"
+          - "&7&o15+ Games & Duels"
+          - " "
+          - "&ePlayers: &d0"
+          - " "
+          - "&eClick to view!"
+        command: "practicequeue"
+      minigames:
+        slot: 14
+        material: REDSTONE
+        data: 0
+        name: "&e&lMinigames"
+        lore:
+          - "&7Variety of gamemodes"
+          - " "
+          - "&ePlayers: &d0"
+          - " "
+          - "&eClick to view!"
+        command: "minigamesqueue"
